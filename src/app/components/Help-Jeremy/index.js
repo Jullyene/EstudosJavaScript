@@ -5,6 +5,8 @@ const gps = {
 }
 
 const coords = window.navigator
+console.log(navigator)
+
 
 function success(elemento){
     const cordenadas = elemento.coords;
@@ -35,3 +37,5 @@ function mostrarPosicao (latitude, longitude) {
     console.log(latitudeLongtude)
 }
 mostrarPosicao();
+
+
