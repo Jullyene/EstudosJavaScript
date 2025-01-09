@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F1F1F1;
+}
+.container .first-content {
+  display: flex;
+}
+.container .first-content .first-column {
+  text-align: center;
+  z-index: 10;
+  flex: 1 0 auto;
+}
+.container .first-content .first-column .title {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.container .first-content .first-column .title-welcome {
+  color: white;
+}
+.container .first-content .first-column .description {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  line-height: 30px;
+}
+.container .first-content .first-column .btn {
+  border-radius: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: #EDB561;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.container .first-content .first-column .btn:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.container .first-content .second-column {
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.container .first-content .second-column .title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .form .step-account {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container .form .step-account > input {
+  border: 2px solid #000;
+  padding: 5px 15px;
+  border-radius: 1rem;
+}
+.container .form .btn {
+  border-radius: 20px;
+  background-color: #EDB561;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.container .form .btn:hover {
+  background-color: transparent;
+  border: 2px solid #EDB561;
+  color: #000;
+}
+.container .content {
+  background: white;
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.container .content::before {
+  content: "";
+  position: absolute;
+  background: #EDB561;
+  width: 40%;
+  height: 100%;
+  border-radius: 15px;
+}/*# sourceMappingURL=index.css.map */
